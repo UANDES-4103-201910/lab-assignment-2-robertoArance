@@ -1,0 +1,8 @@
+def sum_of_cubes(a,b)
+	lista=(a..b);
+	suma=0;
+	for i in lista
+		suma+=(i**3)
+	end
+	return(suma)
+end

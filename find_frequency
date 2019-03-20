@@ -1,0 +1,6 @@
+def find_frequency(sentence, word)
+  lista=sentence.split(' ')
+  return(lista.count(word))
+end
+
+puts find_frequency("hello hello hola", "hello")
